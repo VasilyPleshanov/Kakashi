@@ -44,11 +44,17 @@ body{
 }
 
 h1{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 10px;
 	font-size: 35px;
 	text-transform: uppercase;
 }
 
 nav{
+	margin: 10px;
+	padding: 0px 0px 0px 500px;
 	letter-spacing: 2px;
 	word-spacing: 5px;
 }
@@ -57,12 +63,22 @@ a{
 	color: green;
 }
 
+img{
+	margin: 0px 20px;
+}
+
+.naruto{
+	width: 700px;
+	height: auto;
+}
+
 span{
 	font-style: italic;
 	font-weight: 700;
 }
 
 h2{
+	margin: 20px;
 	text-align: center;
 	font-size: 25px;
 	text-shadow: 1px 1px 2px #f00f00;
@@ -70,10 +86,27 @@ h2{
 }
 
 .about{
+	padding: 0px 20px;
+	width: 100%;
+	height: auto;
 	text-indent: 50px;
 	white-space: normal;
 }
 
+.akademiy{
+	width: 700px;
+	height: auto;
+}
+
+.form{
+	margin: 0px 20px;
+}
+
 .form p{
+	margin: 5px 0px;
 	font-weight: 600;
+}
+
+ul{
+	margin: 0px 20px;
 }
