@@ -109,7 +109,10 @@ body{
 		transition: .2s;
 	}
 }
-
+.content-bottom-info-circle{
+	padding: 0px 50px 0px 0px;
+	border: 1px solid #000;
+}
 .content-bottom-info-circle__circle{
 	width: 50px;
 	height: 50px;
@@ -124,7 +127,7 @@ body{
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-	//animation: black-circle 2s linear infinite alternate;
+	border: 1px solid #000;
 }
 
 @keyframes black-circle{
@@ -136,7 +139,6 @@ body{
 		transform: rotate(1080deg);
 	}
 }
-
 
 @media (max-width: 414px) {
 	.content-bottom-info {
