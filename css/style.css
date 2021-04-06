@@ -175,7 +175,6 @@ body {
 
 .content-bottom-info-circle {
   padding: 0px 50px 0px 0px;
-  border: 1px solid #000;
 }
 
 .content-bottom-info-circle__circle {
@@ -191,7 +190,6 @@ body {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  border: 1px solid #000;
 }
 
 @keyframes black-circle {
